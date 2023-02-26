@@ -1,0 +1,42 @@
+Proceso EJECICIO_1
+	definir nombre como caracter;
+	definir edad como entero;
+	definir estatura como real;
+	definir nombre_padre como caracter;
+	definir nombre_madre como caracter;
+	definir ciudad como caracter;
+	definir pais como caracter;
+	definir nombre_mascota como caracter;
+	definir edad_mascota como entero;
+	definir tipo_mascota como caracter;
+	escribir "escribe tu nombre y apellido"; 
+	leer nombre;
+	escribir "escribe tu edad";
+	leer edad;
+	escribir "escribe tu estatura";
+	leer estatura;
+	escribir "nombre de su padre";
+	leer nombre_padre;
+	escribir "nombre de su madre";
+	leer nombre_madre;
+	escribir "yo ", nombre;
+	escribir "soy hijo de ",nombre_padre;
+	escribir "y ",nombre_madre;
+	escribir "escribe la ciudad capital";
+	leer ciudad;
+	escribir "pais";
+	leer pais;
+	escribir "la ciudad de ", ciudad;
+	escribir "es la capital de ",pais;
+	escribir "como se llama su mascota";
+	leer nombre_mascota;
+	escribir "que tipo de mascota tienes";
+	leer tipo_mascota;
+	escribir "que edad tiene tu mascota";
+	leer edad_mascota;
+	escribir nombre_mascota;
+	escribir "es un ", tipo_mascota;
+	escribir "el cual tiene ", edad_mascota, " años de edad";
+	escribir "y su dueño es ", nombre;
+	
+FinProceso
